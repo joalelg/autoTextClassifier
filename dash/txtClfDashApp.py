@@ -70,7 +70,7 @@ app.layout = html.Div(
               		{
               			'x': df.loc[df.Category==c,'Dim1'], 
                     	'y': df.loc[df.Category==c,'Dim2'],
-                    	'Predicted': df.loc[df.Category==c,'Prediction'],
+                    	'Predicted': df.loc[df.Category==c,'Prediction'] + 'a',
                     	'Athletics': df.loc[df.Category==c,'athletics'],
                     	'Cricket': df.loc[df.Category==c,'cricket'],
                     	'Football': df.loc[df.Category==c,'football'],
